@@ -302,15 +302,15 @@ nav ul li a:hover::after {
 #services {
   position: absolute;
   top: 109% !important;
-  right: 8%;
+  right: -1%;
 }
 .graphic-card {
   bottom: -40%;
-  right:-28%;
+  
 }
 .webapp-card {
   top: 59% !important;
-  right:-28%;
+ 
 }
 .webapp-card .card-desc {
   margin-top: 0.5rem;
@@ -318,19 +318,19 @@ nav ul li a:hover::after {
 }
 .branding-card {
   top: 85%;
-  right:-28%;
+  
 }
 .uiux-card {
   top: 46% !important;
-  right:-28%;
+  
 }
 .edit-card {
   top: 65%;
-  right:-28%;
+
 }
 .gis-card {
   top: 92% !important;
-  right:-28%;
+ 
 }
 .card:hover {
   scale: 1.1;
