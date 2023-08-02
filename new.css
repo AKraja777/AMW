@@ -145,7 +145,7 @@ nav ul li a:hover::after {
 .service-title {
   letter-spacing: 3px;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .graphic-logo,
@@ -160,11 +160,15 @@ nav ul li a:hover::after {
   font-weight: 700;
 }
 .card-body .servicecardcontent {
-  height: 8rem;
+  height: 6rem;
   overflow: hidden;
+ padding-bottom:15px;
+  margin-top: 0.5rem; /* Adjust this value to move the box down */
 }
+
+
 .card-desc {
-  margin-top: 18px;
+  margin-top: 17px;
   font-size: 0.8em;
   font-weight: 700;
   line-height: 1rem;
@@ -285,30 +289,38 @@ nav ul li a:hover::after {
 }
 #services {
   position: absolute;
-  top: 92% !important;
-  right: 8%;
+  top: 200% !important;
+  left:1%;
+  padding-bottom: 1rem;
 }
+
 .graphic-card {
-  bottom: -35%;
+  bottom: 160%;
+  left:13%;
 }
 .webapp-card {
-  top: 59% !important;
+  top: -135% !important;
+  left:6%;
 }
 .webapp-card .card-desc {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 .branding-card {
-  top: 85%;
+  top: -125%;
+  left:-1%;
 }
 .uiux-card {
-  top: 41% !important;
+  top: -159% !important;
+  left:13%;
 }
 .edit-card {
-  top: 65%;
+  top: -130%;
+  left:7%;
 }
 .gis-card {
-  top: 92% !important;
+  top: -122% !important;
+  left:1%;
 }
 .card:hover {
   scale: 1.1;
@@ -318,7 +330,7 @@ nav ul li a:hover::after {
 }
 @media (min-width: 992px) {
   #home {
-    margin-top: 4.5rem;
+    margin-top: 5rem;
   }
   #services {
     top: 90%;
@@ -332,7 +344,7 @@ nav ul li a:hover::after {
     margin-top: 4.5rem;
   }
   #services {
-    top: 120%;
+    top: 12%;
   }
   .uiux-card {
     top: 20%;
@@ -341,11 +353,28 @@ nav ul li a:hover::after {
     top: 65%;
   }
 }
+.main-service-card {
+  width: 25rem;
+  height: 30rem;
+  padding-bottom: 5rem; /* Adjust the value as needed to reduce the height */
+  margin-top:-35rem;
+
+}
+.custom-paragraph {
+  padding-top: 10%; /* Adjust the value to add space between the card and the paragraph */
+}
+.custome-title{
+  padding-top: 10%;
+  font-size: 2.5rem;
+}
+
 @media (max-width: 1268px) {
   .main-service-card {
-    width: 40rem;
+    width: 30rem;
+    height: 20rem;
     transform: translateX(-18%) !important;
   }
+
   #services {
     position: relative;
     display: flex;
@@ -465,7 +494,6 @@ nav ul li a:hover::after {
     margin-left: -7rem !important;
   }
 }
-
 
 #portfolio {
   margin-top: 37.8rem !important;
@@ -839,7 +867,7 @@ nav ul li a:hover::after {
 .webservice .addBtnBox a img {
   width: 4rem;
   height: 3rem;
-  margin-top: -4rem;
+  margin-top: -1rem;
   margin-right: -0.5rem !important;
   margin-bottom: -0.45rem;
   padding: 0 !important;
@@ -849,7 +877,7 @@ nav ul li a:hover::after {
 .marketingservice .addBtnBox a img {
   width: 4rem;
   height: 3rem;
-  margin-top: -5rem;
+  margin-top: -4rem;
   margin-right: -0.5rem !important;
   margin-bottom: -0.45rem;
   padding: 0 !important;
@@ -857,7 +885,7 @@ nav ul li a:hover::after {
 .linkService .addBtnBox a img {
   width: 4rem;
   height: 3rem;
-  margin-top: -5rem;
+  margin-top: -2rem;
   margin-right: -0.5rem !important;
   margin-bottom: -0.45rem;
   padding: 0 !important;
