@@ -7,14 +7,6 @@
 }
 
 
-.introvideo {
-  width: 100%;
-  height: 85%;
-  object-fit: cover;
-  padding-left:0.5rem;
-  padding-right: 0.5rem;
-  padding-top:1rem;
-}
 
 img {
   cursor: pointer;
@@ -51,10 +43,26 @@ img {
   font-weight: normal;
 }
 
+.introvideo {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+}
+
+img {
+  cursor: pointer;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-weight: 1000;
+}
+
 @media (min-width: 1000px) {
   .navbar-brand {
-    margin-left:3rem;
-
+    margin-left: 3rem;
   }
   #main-nav {
     justify-content: space-evenly;
@@ -430,35 +438,29 @@ nav ul li a:hover::after {
     margin: 0 auto;
   }
 }
+/* Fix mobile screen layout */
 @media (max-width: 568px) {
-  body {
-    overflow-x: hidden;
-  }
-  #home {
-    margin-top: 4.5rem;
-  }
+  /* Adjust the top margin for the #services section to center it properly */
   #services {
-    position: relative;
-    display: grid;
-    place-items: center;
-    margin: 0 auto;
-    left: 7%;
-    transform: translateX(-8%);
+    margin-top: 2rem;
   }
+
+  /* Adjust the main-service-card position for mobile */
   .main-service-card {
     position: relative;
     align-items: center;
-    top:-10rem;
-    width: fit-content;
-    width:30rem;
-    height:30rem;
-    
-    transform: translateX(-7%) !important;
+    top: -10rem;
+    width: 100%;
+    max-width: 30rem;
+    height: 30rem;
+    left: 0;
+    transform: translateX(0) !important;
   }
+
+  /* Remove unnecessary positioning for .forlaptab elements */
   .forlaptab {
-    position: relative;
-    left:-10rem;
-    margin-left: -7rem !important;
+    position: static;
+    margin-left: 0 !important;
     align-items: center;
   }
 }
