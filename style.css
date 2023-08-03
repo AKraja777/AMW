@@ -144,24 +144,21 @@ nav ul li a:hover::after {
 }
 .service-title {
   letter-spacing: 5px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-.custom-paragraph {
-  padding-top: 10%; 
-  font-size: 1.2rem;
-  /* Adjust the value to add space between the card and the paragraph */
+  font-weight: 800;
+  margin-bottom: 16px;
 }
 .custome-title{
-  padding-top: 10%;
-  font-size: 2.5rem;
+  font-size:35px;
+  padding-top:1rem;
 }
-.main-service-card {
-  width: 25rem;
-  height: 33rem;
-  padding-bottom: 5rem; /* Adjust the value as needed to reduce the height */
-  margin-top:-2rem;
-
+.custom-paragraph{
+  padding:1rem;
+}
+.main-service-card{
+  width:25rem;
+  height:30rem;
+  position:relative;
+  left:-7rem;
 }
 
 .graphic-logo,
@@ -178,6 +175,9 @@ nav ul li a:hover::after {
 .card-body .servicecardcontent {
   height: 7.8rem;
   overflow: hidden;
+}
+.multiple-cards{
+  margin-left:-30px;
 }
 .card-desc {
   margin-top: 18px;
@@ -302,15 +302,13 @@ nav ul li a:hover::after {
 #services {
   position: absolute;
   top: 109% !important;
-  right: -1%;
+  left: 8%;
 }
 .graphic-card {
   bottom: -40%;
-  
 }
 .webapp-card {
   top: 59% !important;
- 
 }
 .webapp-card .card-desc {
   margin-top: 0.5rem;
@@ -318,19 +316,15 @@ nav ul li a:hover::after {
 }
 .branding-card {
   top: 85%;
-  
 }
 .uiux-card {
-  top: 46% !important;
-  
+  top: 41% !important;
 }
 .edit-card {
   top: 65%;
-
 }
 .gis-card {
   top: 92% !important;
- 
 }
 .card:hover {
   scale: 1.1;
@@ -399,6 +393,7 @@ nav ul li a:hover::after {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-left:-10rem;
   }
   .main-service-card {
     width: fit-content;
@@ -417,10 +412,10 @@ nav ul li a:hover::after {
     margin-top: -1rem;
   }
   .custom-card {
-    width: fit-content !important;
+    width: fit-content;
   }
   .forlaptab:nth-child(2) {
-    margin-top: 1.2rem !important;
+    margin-top: 1.2rem;
   }
 }
 @media (max-width: 992px) {
