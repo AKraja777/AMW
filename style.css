@@ -699,10 +699,12 @@ nav ul li a:hover::after {
   }
   #portfolio .images .imgbox1 img,
   .portfolio-box {
-    width: 30rem !important;
+    align-items: center;
+    width: 20rem !important;
     height: 18rem !important;
   }
   #portfolio .images .imgbox2 img {
+    align-items: center;
     width: 30rem !important;
     height: 18rem !important;
   }
@@ -743,12 +745,12 @@ nav ul li a:hover::after {
 }
 @media (max-width: 578px) {
   .images {
-    margin-left: -9% !important;
+    margin-left: -0% !important;
   }
 }
 @media (max-width: 568px) {
   .images {
-    margin-left: -13% !important;
+    margin-left:0% !important;
   }
   .portfolio-box {
     padding-bottom: -10rem !important;
@@ -757,7 +759,7 @@ nav ul li a:hover::after {
 }
 @media (max-width: 530px) {
   .images {
-    margin-left: -30% !important;
+    margin-left: -10% !important;
   }
 }
 .designandlink,
