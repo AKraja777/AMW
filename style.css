@@ -145,7 +145,7 @@ nav ul li a:hover::after {
 }
 @media (max-width: 568px) {
   .getStart {
-    top: 70%;
+    top: 70%; 
   }
 }
 .service-title {
@@ -434,11 +434,20 @@ nav ul li a:hover::after {
     transform: translateX(-8%);
   }
   .main-service-card {
+    position: relative;
+    align-items: center;
+    top:-10rem;
     width: fit-content;
+    width:30rem;
+    height:30rem;
+    left:-8rem;
     transform: translateX(-7%) !important;
   }
   .forlaptab {
+    position: relative;
+    left:-10rem;
     margin-left: -7rem !important;
+    align-items: center;
   }
 }
 
