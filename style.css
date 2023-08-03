@@ -59,7 +59,7 @@ img {
 }
 nav ul li a {
   position: relative;
-  color: #282829 !important;
+  color: #f2f2f8 !important;
   z-index: 99;
 }
 nav ul li a:hover {
@@ -101,6 +101,7 @@ nav ul li a:hover::after {
 .video {
   position: relative;
   z-index: -1;
+  top:-10px;
 }
 .getStart {
   position: absolute;
@@ -315,16 +316,16 @@ nav ul li a:hover::after {
   margin-bottom: 0.5rem;
 }
 .branding-card {
-  top: 85%;
+  top: 75%;
 }
 .uiux-card {
   top: 41% !important;
 }
 .edit-card {
-  top: 65%;
+  top: 60%;
 }
 .gis-card {
-  top: 92% !important;
+  top: 75% !important;
 }
 .card:hover {
   scale: 1.1;
@@ -332,9 +333,70 @@ nav ul li a:hover::after {
   border: 1px solid rgb(0, 0, 0);
   transition: scale 0.2s ease-in-out;
 }
-
-
-
+@media (min-width: 992px) {
+  #home {
+    margin-top: 4.5rem;
+  }
+  #services {
+    top: 90%;
+  }
+  .custom-card {
+    width: 16rem;
+  }
+}
+@media (min-width: 1198px) {
+  #home {
+    margin-top: 4.5rem;
+  }
+  #services {
+    top: 120%;
+  }
+  .uiux-card {
+    top: 20%;
+  }
+  .gis-card {
+    top: 65%;
+  }
+}
+@media (max-width: 1268px) {
+ 
+  #services {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .service-title {
+    letter-spacing: 5px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+  .custome-title{
+    font-size:35px;
+    padding-top:1rem;
+  }
+  .custom-paragraph{
+    padding:1rem;
+  }
+  .main-service-card{
+    width:25rem;
+    height:30rem;
+    position:relative;
+    left:-7rem;
+  }
+  .forlaptab {
+    transform: translateX(10%) !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    margin-top: -33rem;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    
+  }
+  .forlaptab:nth-child(2) {
+    margin-top: 1.2rem !important;
+  }
+}
 #portfolio {
   margin-top: 37.8rem !important;
   padding: 0rem 5rem 2rem;
