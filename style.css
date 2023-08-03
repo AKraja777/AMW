@@ -188,7 +188,23 @@ nav ul li a:hover::after {
   cursor: pointer;
   user-select: none;
 }
-
+.main-service-card {
+  width:30rem;
+  left:-27rem;
+  height:30rem;
+  top:40rem;
+}
+.service-title {
+  letter-spacing: 5px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  font-size:3rem;
+  padding-top:2rem;
+}
+.custom-paragraph{
+  font-size:1.3rem;
+  padding-top:2rem;
+}
 .bg-dark1 {
   background-color: #4e5367;
 }
@@ -199,39 +215,40 @@ nav ul li a:hover::after {
   position: relative;
 }
 #services {
-  position: absolute;
-  top: 190% !important;
-  left:1%;
-  padding-bottom: 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top:-50rem;
 }
 
 .graphic-card {
-  bottom: 150%;
-  left:35%;
+  bottom:-125%;
+  left:125%;
 }
 .webapp-card {
-  top: -135% !important;
-  left:20%;
+  top: 185% !important;
+  left:100%;
 }
 .webapp-card .card-desc {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 .branding-card {
-  top: -125%;
-  left:5%;
+  top: 220%;
+  left:74%;
 }
 .uiux-card {
-  top: -145% !important;
-  left:35%;
+  top: 130% !important;
+  left:125%;
 }
 .edit-card {
-  top: -130%;
-  left:20%;
+  top: 190%;
+  left:100%;
 }
 .gis-card {
-  top: -122% !important;
-  left:5%;
+  top: 225% !important;
+  left:75%;
 }
 .card:hover {
   scale: 1.1;
@@ -798,7 +815,7 @@ nav ul li a:hover::after {
 .webservice .addBtnBox a img {
   width: 4rem;
   height: 3rem;
-  margin-top: -1.9rem;
+  margin-top: -0.2rem;
   margin-right: -0.5rem !important;
   margin-bottom: -0.45rem;
   padding: 0 !important;
@@ -808,7 +825,7 @@ nav ul li a:hover::after {
 .marketingservice .addBtnBox a img {
   width: 4rem;
   height: 3rem;
-  margin-top: -3rem;
+  margin-top: 1rem;
   margin-right: -0.5rem !important;
   margin-bottom: -0.45rem;
   padding: 0 !important;
@@ -816,7 +833,7 @@ nav ul li a:hover::after {
 .linkService .addBtnBox a img {
   width: 4rem;
   height: 3rem;
-  margin-top: -3rem;
+  margin-top: 1rem;
   margin-right: -0.5rem !important;
   margin-bottom: -0.45rem;
   padding: 0 !important;
