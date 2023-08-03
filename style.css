@@ -430,7 +430,7 @@ nav ul li a:hover::after {
     display: grid;
     place-items: center;
     margin: 0 auto;
-    left: 69%;
+    left: 50%;
     transform: translateX(-8%);
   }
   .main-service-card {
