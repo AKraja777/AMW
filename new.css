@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+
 img {
   cursor: pointer;
 }
@@ -40,10 +43,26 @@ img {
   font-weight: normal;
 }
 
+.introvideo {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+}
+
+img {
+  cursor: pointer;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-weight: 1000;
+}
+
 @media (min-width: 1000px) {
   .navbar-brand {
-    margin-left:3rem;
-
+    margin-left: 3rem;
   }
   #main-nav {
     justify-content: space-evenly;
@@ -60,6 +79,11 @@ img {
 nav ul li a {
   position: relative;
   color: #f2f2f8 !important;
+  z-index: 99;
+}
+.item ul li a {
+  position: relative;
+  color: #02020c !important;
   z-index: 99;
 }
 nav ul li a:hover {
@@ -101,7 +125,8 @@ nav ul li a:hover::after {
 .video {
   position: relative;
   z-index: -1;
-  top:-10px;
+ 
+  
 }
 .getStart {
   position: absolute;
@@ -130,7 +155,7 @@ nav ul li a:hover::after {
 }
 @media (min-width: 768px) {
   .getStart {
-    top: 63%;
+    top:90%;
   }
 }
 @media (max-width: 768px) {
@@ -140,7 +165,7 @@ nav ul li a:hover::after {
 }
 @media (max-width: 568px) {
   .getStart {
-    top: 70%;
+    top: 70%; 
   }
 }
 .service-title {
@@ -148,19 +173,8 @@ nav ul li a:hover::after {
   font-weight: 800;
   margin-bottom: 16px;
 }
-.custome-title{
-  font-size:35px;
-  padding-top:1rem;
-}
-.custom-paragraph{
-  padding:1rem;
-}
-.main-service-card{
-  width:25rem;
-  height:30rem;
-  position:relative;
-  left:-7rem;
-}
+
+
 
 .graphic-logo,
 .webapp-logo,
@@ -174,14 +188,14 @@ nav ul li a:hover::after {
   font-weight: 700;
 }
 .card-body .servicecardcontent {
-  height: 7.8rem;
+  height: 7rem;
   overflow: hidden;
 }
 .multiple-cards{
   margin-left:-30px;
 }
 .card-desc {
-  margin-top: 18px;
+  margin-top: 17px;
   font-size: 0.8em;
   font-weight: 700;
   line-height: 1rem;
@@ -194,102 +208,22 @@ nav ul li a:hover::after {
   cursor: pointer;
   user-select: none;
 }
-#modalWindow {
-  margin-left: 20rem;
-  width: 1000px;
-  height: 780px;
-  position: absolute;
-  top: 0%;
-  display: grid;
-  place-items: center;
-  overflow: hidden;
-  transition: all 0.5s ease-in-out;
-  z-index: 999;
+.main-service-card {
+  width:30rem;
+  left:-27rem;
+  height:30rem;
+  top:40rem;
 }
-#modalWindow #modalBox {
-  width: 36rem;
-  height: auto;
-  padding: 1.5rem 0rem 1rem;
-  background-color: #4e5367;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  z-index: 999;
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  color: #f6f6f8;
+.service-title {
+  letter-spacing: 5px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  font-size:3rem;
+  padding-top:2rem;
 }
-#modalWindow #modalBox img {
-  width: 5rem;
-  height: 5rem;
-  margin-left: 1rem;
-}
-#modalWindow #modalBox .contentContainer h3 {
-  font-weight: 700;
-  font-size: 1.3rem;
-}
-#modalWindow #modalBox .contentContainer p {
-  line-height: 18px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  padding-right: 1rem !important;
-  text-align: justify;
-}
-.read-less {
-  color: #1ebbeb;
-  text-align: right !important;
-  margin-right: 1rem;
-  font-size: 1rem !important;
-  cursor: pointer;
-}
-@media (max-width: 1192px) {
-  #modalWindow {
-    top: 30%;
-    margin-right: -7rem;
-  }
-}
-@media (max-width: 992px) {
-  #modalWindow {
-    top: 10%;
-    margin-right: -10rem;
-  }
-}
-@media (max-width: 768px) {
-  #modalWindow {
-    top: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: -5rem;
-  }
-  #modalWindow #modalBox {
-    display: flex;
-    flex-direction: column;
-    width: 30rem;
-    justify-content: center;
-    align-items: center;
-  }
-  #modalWindow #modalBox .contentContainer {
-    padding-left: 1rem;
-    text-align: justify;
-  }
-  #modalWindow #modalBox .contentContainer h3 {
-    text-align: center;
-  }
-}
-@media (max-width: 568px) {
-  #modalWindow {
-    display: flex;
-    justify-content: flex-start;
-    margin-right: 12rem;
-  }
-  #modalWindow #modalBox {
-    display: flex;
-    flex-direction: column;
-    width: 30rem;
-    justify-content: center;
-    align-items: center;
-  }
+.custom-paragraph{
+  font-size:1.3rem;
+  padding-top:2rem;
 }
 .bg-dark1 {
   background-color: #4e5367;
@@ -301,31 +235,40 @@ nav ul li a:hover::after {
   position: relative;
 }
 #services {
-  position: absolute;
-  top: 109% !important;
-  left: 8%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top:-50rem;
 }
+
 .graphic-card {
-  bottom: -40%;
+  bottom:-125%;
+  left:125%;
 }
 .webapp-card {
-  top: 59% !important;
+  top: 185% !important;
+  left:100%;
 }
 .webapp-card .card-desc {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 .branding-card {
-  top: 75%;
+  top: 220%;
+  left:74%;
 }
 .uiux-card {
-  top: 41% !important;
+  top: 130% !important;
+  left:125%;
 }
 .edit-card {
-  top: 60%;
+  top: 190%;
+  left:100%;
 }
 .gis-card {
-  top: 75% !important;
+  top: 225% !important;
+  left:75%;
 }
 .card:hover {
   scale: 1.1;
@@ -359,44 +302,169 @@ nav ul li a:hover::after {
   }
 }
 @media (max-width: 1268px) {
- 
-  #services {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-  }
   .service-title {
     letter-spacing: 5px;
     font-weight: 800;
     margin-bottom: 16px;
-  }
-  .custome-title{
-    font-size:35px;
+    font-size:2.2rem;
     padding-top:1rem;
   }
   .custom-paragraph{
-    padding:1rem;
+    font-size:1.2rem;
+    padding-top:1.2rem;
   }
-  .main-service-card{
-    width:25rem;
+  
+  .main-service-card {
+    width:23rem;
+    left:-22rem;
     height:30rem;
-    position:relative;
-    left:-7rem;
+    transform: translateX(-18%) !important;
+    top:20rem;
   }
-  .forlaptab {
-    transform: translateX(10%) !important;
+  #services {
+    position: relative;
     display: flex;
-    justify-content: center !important;
     align-items: center;
-    margin-top: -33rem;
-    flex-wrap: nowrap;
-    gap: 0.5rem;
-    
+    flex-direction: column;
+    margin-top:-28rem;
+  }
+  .graphic-card {
+    margin-top:-10rem;
+    top:45%;
+    left:90%;
+  }
+  .webapp-card {
+    top: 30% !important;
+    left:87%;
+  }
+  .webapp-card .card-desc {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .branding-card {
+    top: 65%;
+    left:84%;
+  }
+  .uiux-card {
+    top: -15% !important;
+    left:91%;
+  }
+  .edit-card {
+    top: 30%;
+    left:88%;
+  }
+  .gis-card {
+    top:65% !important;
+    left:85%;
   }
   .forlaptab:nth-child(2) {
     margin-top: 1.2rem !important;
   }
 }
+@media (max-width: 1158px) {
+  body {
+    overflow-x: hidden;
+  }
+  #home {
+    margin-top: 4.5rem;
+  }
+  #services {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-service-card {
+    width: fit-content;
+    transform: translateX(5%) !important;
+  }
+  .multiple-cards {
+    margin: 0 15rem !important;
+    margin-left: 10rem !important;
+  }
+  .uiux-card {
+    margin-top: -1rem;
+  }
+  .branding-card,
+  .edit-card,
+  .gis-card {
+    margin-top: -1rem;
+  }
+  .custom-card {
+    width: fit-content !important;
+  }
+  .forlaptab:nth-child(2) {
+    margin-top: 1.2rem !important;
+  }
+}
+@media (max-width: 992px) {
+  .forlaptab {
+    flex-wrap: wrap;
+  }
+  .webapp-card {
+    margin-top: 0.3rem;
+  }
+  .branding-card {
+    margin-top: 0.5rem;
+  }
+  .uiux-card {
+    margin-top: -0.1rem;
+  }
+  .edit-card {
+    margin-top: 0.5rem;
+  }
+  .gis-card {
+    margin-top: 0.5rem;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .multiple-cards {
+    margin: 0rem 11rem !important;
+    margin-left: -1rem !important;
+  }
+  .main-service-card {
+    margin-left: -5rem !important;
+    transform: translateX(-27%);
+  }
+  #services {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+/* Fix mobile screen layout */
+@media (max-width: 568px) {
+  /* Adjust the top margin for the #services section to center it properly */
+  #services {
+    margin-top: 2rem;
+  }
+
+  /* Adjust the main-service-card position for mobile */
+  .main-service-card {
+    position: relative;
+    align-items: center;
+    top: -10rem;
+    width: 100%;
+    max-width: 30rem;
+    height: 30rem;
+    left: 0;
+    transform: translateX(0) !important;
+  }
+
+  /* Remove unnecessary positioning for .forlaptab elements */
+  .forlaptab {
+    position: static;
+    margin-left: 0 !important;
+    align-items: center;
+  }
+}
+
 #portfolio {
   margin-top: 37.8rem !important;
   padding: 0rem 5rem 2rem;
@@ -633,10 +701,12 @@ nav ul li a:hover::after {
   }
   #portfolio .images .imgbox1 img,
   .portfolio-box {
-    width: 30rem !important;
+    align-items: center;
+    width: 20rem !important;
     height: 18rem !important;
   }
   #portfolio .images .imgbox2 img {
+    align-items: center;
     width: 30rem !important;
     height: 18rem !important;
   }
@@ -677,21 +747,21 @@ nav ul li a:hover::after {
 }
 @media (max-width: 578px) {
   .images {
-    margin-left: -9% !important;
+    margin-left: -0% !important;
   }
 }
 @media (max-width: 568px) {
   .images {
-    margin-left: -13% !important;
+    margin-left:0% !important;
   }
   .portfolio-box {
-    padding-bottom: -11rem !important;
-    height: 14rem !important;
+    padding-bottom: -10rem !important;
+    height: 12rem !important;
   }
 }
 @media (max-width: 530px) {
   .images {
-    margin-left: -23% !important;
+    margin-left: -10% !important;
   }
 }
 .designandlink,
@@ -746,7 +816,7 @@ nav ul li a:hover::after {
 .webservice .webBox .content h5,
 .marketingservice .marketBox .content h5 {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 20px;
   color: #4e5367;
 }
 .designService .designBox .content h3,
@@ -755,8 +825,9 @@ nav ul li a:hover::after {
 .marketingservice .marketBox .content h3 {
   font-weight: 600;
   margin-top: 1rem;
-  font-size: 1.3rem;
-  letter-spacing: -1px;
+  font-size:16px;
+  letter-spacing:0.5px;
+  
 }
 .designService .addBtnBox,
 .linkService .addBtnBox,
@@ -769,7 +840,7 @@ nav ul li a:hover::after {
 .webservice .addBtnBox a img {
   width: 4rem;
   height: 3rem;
-  margin-top: -4rem;
+  margin-top: -0.2rem;
   margin-right: -0.5rem !important;
   margin-bottom: -0.45rem;
   padding: 0 !important;
@@ -779,7 +850,7 @@ nav ul li a:hover::after {
 .marketingservice .addBtnBox a img {
   width: 4rem;
   height: 3rem;
-  margin-top: -5rem;
+  margin-top: 1rem;
   margin-right: -0.5rem !important;
   margin-bottom: -0.45rem;
   padding: 0 !important;
@@ -787,7 +858,7 @@ nav ul li a:hover::after {
 .linkService .addBtnBox a img {
   width: 4rem;
   height: 3rem;
-  margin-top: -5rem;
+  margin-top: 1rem;
   margin-right: -0.5rem !important;
   margin-bottom: -0.45rem;
   padding: 0 !important;
