@@ -62,11 +62,6 @@ nav ul li a {
   color: #f2f2f8 !important;
   z-index: 99;
 }
-.item ul li a {
-  position: relative;
-  color: #02020c !important;
-  z-index: 99;
-}
 nav ul li a:hover {
   color: #212529;
   scale: 1.02;
@@ -751,7 +746,7 @@ nav ul li a:hover::after {
 .webservice .webBox .content h5,
 .marketingservice .marketBox .content h5 {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1rem;
   color: #4e5367;
 }
 .designService .designBox .content h3,
@@ -760,9 +755,8 @@ nav ul li a:hover::after {
 .marketingservice .marketBox .content h3 {
   font-weight: 600;
   margin-top: 1rem;
-  font-size:16px;
-  letter-spacing:0.5px;
-  
+  font-size: 1.3rem;
+  letter-spacing: -1px;
 }
 .designService .addBtnBox,
 .linkService .addBtnBox,
@@ -775,7 +769,7 @@ nav ul li a:hover::after {
 .webservice .addBtnBox a img {
   width: 4rem;
   height: 3rem;
-  margin-top: -1.9rem;
+  margin-top: -4rem;
   margin-right: -0.5rem !important;
   margin-bottom: -0.45rem;
   padding: 0 !important;
@@ -785,7 +779,7 @@ nav ul li a:hover::after {
 .marketingservice .addBtnBox a img {
   width: 4rem;
   height: 3rem;
-  margin-top: -3rem;
+  margin-top: -5rem;
   margin-right: -0.5rem !important;
   margin-bottom: -0.45rem;
   padding: 0 !important;
@@ -793,7 +787,7 @@ nav ul li a:hover::after {
 .linkService .addBtnBox a img {
   width: 4rem;
   height: 3rem;
-  margin-top: -3rem;
+  margin-top: -5rem;
   margin-right: -0.5rem !important;
   margin-bottom: -0.45rem;
   padding: 0 !important;
