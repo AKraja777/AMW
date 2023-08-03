@@ -9,10 +9,11 @@
 
 .introvideo {
   width: 100%;
-  height: 78%;
+  height: 85%;
   object-fit: cover;
   padding-left:0.5rem;
   padding-right: 0.5rem;
+  padding-top:1rem;
 }
 
 img {
