@@ -42,10 +42,14 @@ img {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
+.roboto-slab-light {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
 
 .introvideo {
   width: 100%;
-  height: 100%;
+  height: 90%;
   object-fit: cover;
 }
 
@@ -144,7 +148,7 @@ nav ul li a:hover::after {
 }
 @media (max-width: 1337px) {
   .getStart {
-    top: 70% !important;
+    top: 69% !important;
   }
 }
 .getStart:focus {
@@ -186,7 +190,7 @@ nav ul li a:hover::after {
   font-weight: 700;
 }
 .card-body .servicecardcontent {
-  height: 7rem;
+  height: 6.8rem;
   overflow: hidden;
 }
 .multiple-cards{
@@ -208,20 +212,20 @@ nav ul li a:hover::after {
 }
 .main-service-card {
   width:30rem;
-  left:-27rem;
+  left:4rem;
   height:30rem;
-  top:35rem;
+  top:-12rem;
 }
 .service-title {
   letter-spacing: 5px;
   font-weight: 800;
   margin-bottom: 16px;
-  font-size:3rem;
-  padding-top:2rem;
+  font-size:2rem;
+  padding-top:1rem;
 }
 .custom-paragraph{
-  font-size:1.3rem;
-  padding-top:2rem;
+  font-size:1.4rem;
+  padding-top:1rem;
 }
 .read-more {
   text-decoration: none;
@@ -341,37 +345,37 @@ nav ul li a:hover::after {
   position: relative;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  margin-top:-50rem;
+  flex-direction: column; 
+  height:100px;
 }
 
 .graphic-card {
-  bottom:-125%;
-  left:125%;
+  bottom:28%;
+  left:45%;
 }
 .webapp-card {
-  top: 185% !important;
-  left:100%;
+  top: 15% !important;
+  left:22%;
 }
 .webapp-card .card-desc {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 .branding-card {
-  top: 220%;
-  left:75%;
+  top: 70%;
+  left:-1%;
 }
 .uiux-card {
-  top: 130% !important;
-  left:125%;
+  top: -25% !important;
+  left:45%;
 }
 .edit-card {
-  top: 190%;
-  left:100%;
+  top: 18%;
+  left:22%;
 }
 .gis-card {
-  top: 225% !important;
-  left:75%;
+  top: 73% !important;
+  left:-1%;
 }
 .card:hover {
   scale: 1.1;
@@ -429,7 +433,7 @@ nav ul li a:hover::after {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top:-28rem;
+    margin-top:100rem;
   }
   .graphic-card {
     margin-top:-10rem;
