@@ -18,7 +18,7 @@ const servicesArray = [
   {
     img: "img/services/graphic-design.png",
     head: "GRAPHIC DESIGN",
-    p: "Good design is essential for creating a strong visual identity and communicating your message effectively. Our graphic design services cover a range of mediums, from print to digital, and are tailored to meet the specific needs of each client.<br><br>Our graphic design services include:<br> Logo and branding design Print collateral design (brochures, business cards, flyers, etc.)<br>Digital collateral design (social media graphics, email newsletters, etc.)<br>Packaging design<br>Illustration and infographic design",
+    p: "Good design is essential for creating a strong visual identity and communicating your message effectively. Our graphic design services cover a range of mediums, from print to digital, and are tailored to meet the specific needs of each client.<br><br>Our graphic design services include:<br>logo and branding design Print collateral design (brochures, business cards, flyers, etc.)<br>Digital collateral design (social media graphics, email newsletters, etc.)<br>Packaging design<br>Illustration and infographic design",
   },
   {
     img: "img/services/app-development.png",
@@ -47,6 +47,7 @@ const servicesArray = [
   },
 ];
 
+
 let services = document.querySelector("#services");
 const readMoreBtn = document.querySelectorAll(".read-more");
 
@@ -71,14 +72,20 @@ for (let i = 0; i < readMoreBtn.length; i++) {
     let cardtitle = document.createElement("h3");
     cardtitle.innerHTML = servicesArray[i].head;
 
-    let carddesc = document.createElement("ul"); // Use <ul> for bullet points
+    let carddesc = document.createElement("div"); // Use <div> for content
 
     const serviceDetails = servicesArray[i].p.split("<br>").filter(detail => detail.trim() !== "");
+    const introParagraph = serviceDetails.shift(); // Get the introductory paragraph
+    const listItemContainer = document.createElement("ul"); // Create a <ul> for bullet points
+
     serviceDetails.forEach(detail => {
       const listItem = document.createElement("li");
       listItem.innerHTML = detail;
-      carddesc.appendChild(listItem);
+      listItemContainer.appendChild(listItem);
     });
+
+    carddesc.innerHTML = introParagraph; // Set the introductory paragraph
+    carddesc.appendChild(listItemContainer); // Append the bullet point list
 
     let readless = document.createElement("p");
     readless.innerHTML = "Read Less";
