@@ -54,7 +54,6 @@ let modalWindow = document.createElement("div");
 modalWindow.id = "modalWindow";
 
 let modalBox = document.createElement("div");
-
 modalBox.id = "modalBox";
 
 for (let i = 0; i < readMoreBtn.length; i++) {
@@ -72,8 +71,14 @@ for (let i = 0; i < readMoreBtn.length; i++) {
     let cardtitle = document.createElement("h3");
     cardtitle.innerHTML = servicesArray[i].head;
 
-    let carddesc = document.createElement("p");
-    carddesc.innerHTML = servicesArray[i].p;
+    let carddesc = document.createElement("ul"); // Use <ul> for bullet points
+
+    const serviceDetails = servicesArray[i].p.split("<br>").filter(detail => detail.trim() !== "");
+    serviceDetails.forEach(detail => {
+      const listItem = document.createElement("li");
+      listItem.innerHTML = detail;
+      carddesc.appendChild(listItem);
+    });
 
     let readless = document.createElement("p");
     readless.innerHTML = "Read Less";

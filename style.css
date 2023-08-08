@@ -279,7 +279,7 @@ nav ul li a:hover::after {
   font-weight: 500;
   padding-right: 1rem !important;
   text-align: justify;
-}
+} 
 .read-less {
   color: #1ebbeb;
   text-align: right !important;
