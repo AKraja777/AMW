@@ -980,7 +980,7 @@ margin-right:1rem;
 .marketingservice .marketBox .content h5 {
   font-weight: 700;
   font-size: 25px;
-  color: #4e5367;
+  color:#51495F;
   margin-top:1rem;
 }
 .designService .designBox .content h3,
@@ -990,6 +990,7 @@ margin-right:1rem;
   font-weight: 700;
   margin-top: 0.5rem;
   font-size:16px;
+  color:#51495F;
   letter-spacing:0.5px;
   
 }
