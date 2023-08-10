@@ -989,9 +989,11 @@ margin-right:1rem;
 .marketingservice .marketBox .content h3 {
   font-weight: 700;
   margin-top: 0.5rem;
-  font-size:16px;
+  font-size:15px;
   color:#51495F;
   letter-spacing:0.5px;
+  line-height:19px;
+  
   
 }
 .designService .addBtnBox,
