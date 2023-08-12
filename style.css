@@ -630,7 +630,7 @@ nav ul li a:hover::after {
   justify-content: center;
   align-items: center;
   position:relative;
-  top:-3rem;
+  top:-6rem;
 }
 #portfolio .showMore button {
   background-color: #46cbf4;
@@ -645,7 +645,7 @@ nav ul li a:hover::after {
   margin-bottom: 1rem;
 }
 #portfolio .images .portfolio-box {
-  width: 26rem;
+  width: 28rem;
   height: 23rem;
   background-color: #4e5367;
   color: white;
@@ -653,7 +653,7 @@ nav ul li a:hover::after {
   margin-right:35rem;
   margin-top:-3rem;
   position:relative;
-  top:9rem;
+  top:5.5rem;
 }
 #portfolio .images .portfolio-box h3 {
   text-align: center;
@@ -772,58 +772,58 @@ nav ul li a:hover::after {
   }
 }
 #portfolio .images .img-1 {
-  width: 33rem;
+  width: 35rem;
   height: 22rem;
   margin-top:-1rem;
   position:relative;
   left:30rem;
-  top:9rem;
+  top:5rem;
   
 }
 #portfolio .images .img-2 {
-  width: 21rem;
+  width: 24rem;
   margin-top: 5rem;
-  height: 17rem;
+  height: 20rem;
   margin-right:30rem;
   position:relative;
   left:30rem;
-  top:8rem;
+  top:3rem;
  
 }
 #portfolio .images .img-3 {
-  width: 35rem;
-  height: 40rem;
-  margin-right:53rem;
+  width: 38rem;
+  height: 45rem;
+  margin-right:56rem;
   margin-top:12rem;
   position:relative;
-  top:-4rem;
+  bottom:9.5rem;
 }
 #portfolio .images .img-4 {
   width: 22rem;
-  height: 17rem;
-  margin-top: -73rem;
+  height: 20rem;
+  margin-top: -91rem;
   margin-left:5rem;
 
 }
 #portfolio .images .img-5 {
-  width: 25rem;
-  height: 17rem;
-  margin-top: -75rem;
-  margin-left:53rem;
+  width: 28rem;
+  height: 20rem;
+  margin-top: -93rem;
+  margin-left:56rem;
  
 }
 #portfolio .images .img-6 {
-  margin-top: -36rem;
-  margin-left: 9rem;
-  width: 26rem;
-  height:23rem;
+  margin-top: -49rem;
+  margin-left: 12rem;
+  width: 29rem;
+  height:25rem;
   display: block; /* Remove any default spacing */
 }
 #portfolio .images .img-7 {
-  margin-top: -114rem;
+  margin-top: -127rem;
   width: 22rem;
-  height: 23rem;
-  margin-left: 58rem;
+  height: 25rem;
+  margin-left: 64rem;
   margin-bottom:-76rem;
   
 }
