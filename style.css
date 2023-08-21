@@ -792,7 +792,7 @@ nav ul li a:hover::after {
 }
 #portfolio .images .img-3 {
   width: 40rem;
-  height: 47rem;
+  height: 46rem;
   margin-right:57.5rem;
   margin-top:12rem;
   position:relative;
@@ -800,27 +800,27 @@ nav ul li a:hover::after {
 }
 #portfolio .images .img-4 {
   width: 22rem;
-  height: 21rem;
+  height: 20rem;
   margin-top: -85rem;
   margin-left:6rem;
 
 }
 #portfolio .images .img-5 {
   width: 27rem;
-  height: 23rem;
-  margin-top: -87.5rem;
+  height: 21rem;
+  margin-top: -87rem;
   margin-left:57.5rem;
  
 }
 #portfolio .images .img-6 {
-  margin-top: -41rem;
+  margin-top: -42rem;
   margin-left: 12rem;
   width: 29rem;
   height:25rem;
   display: block; /* Remove any default spacing */
 }
 #portfolio .images .img-7 {
-  margin-top: -119rem;
+  margin-top: -120rem;
   width: 23rem;
   height: 25rem;
   margin-left: 64.5rem;
