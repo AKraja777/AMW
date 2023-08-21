@@ -594,7 +594,7 @@ nav ul li a:hover::after {
   font-weight: 800;
   font-size: 1.05rem;
   letter-spacing: -0.2px;
-  color: #4e5367;
+  color:#4E5367;
 }
 #portfolio nav ul li a::after {
   content: "";
