@@ -1291,6 +1291,7 @@ margin-right:1rem;
   background-color: #4e5367;
   color: #f6f6f8;
   margin-top: -1rem;
+  margin-left:3rem;
 }
 
 #about .about-carousel .aboutsection .aboutBox img {
@@ -1335,7 +1336,7 @@ letter-spacing:2px;
   box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25);
 }
 #about .about-carousel .aboutsection .vision-mission .visionBox {
-  margin-left: 5rem;
+  margin-left:10rem;
 }
 #about .about-carousel .aboutsection .vision-mission .missionBox {
   margin-left: -1rem;
