@@ -1320,7 +1320,7 @@ margin-right:1rem;
 }
 
 #about .about-carousel .aboutsection .aboutBox p {
-  padding-top:1rem;
+  padding-top:-1.5rem;
   font-size:1.2rem;
   letter-spacing:1px;
   font-family: 'Roboto Slab';
