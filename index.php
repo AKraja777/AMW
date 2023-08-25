@@ -549,13 +549,13 @@
                 information below, or fill out the form to send us a message.
               </p>
             </div>
+         
             <div class="contact-form">
-              <form action="#" method="post">
+            <form action="https://formsubmit.co/ashokkumar7hitter@gmail.com" method="POST" />
                 <div class="input1">
                   <div class="namebox">
                     <label for="name"> Name : </label>
                     <br>
-
                     <input type="text" name="name" id="name" />
                   </div>
                   <div class="subjectbox">
@@ -568,7 +568,7 @@
                   <textarea name="message" id="message" cols="30"></textarea>
                 </div>
                 <div class="sendmsgbtn">
-                  <a href="#">Send Message</a>
+                <a href="javascript:void(0);" onclick="document.forms[0].submit();" class="btn btn-primary">Send Message</a>
                 </div>
               </form>
             </div>
