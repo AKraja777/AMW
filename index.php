@@ -551,7 +551,7 @@
             </div>
          
             <div class="contact-form">
-            <form action="https://formsubmit.co/ashokkumar7hitter@gmail.com" method="POST" />
+            <form action="https://formsubmit.co/info@amssoftsolution.com" method="POST" />
                 <div class="input1">
                   <div class="namebox">
                     <label for="name"> Name : </label>
@@ -583,9 +583,9 @@
 
   <!-- footer section -->
   <footer id="footer">
-    <a href="#"><img src="img/CONTACT US/A.png" alt=""></a>
-    <a href="#"><img src="img/CONTACT US/B.png" alt=""></a>
-    <a href="#"><img src="img/CONTACT US/c.png" alt=""></a>
+  <a href="https://wa.me/8838987243"><img src="img/CONTACT US/B.png" alt=""></a>
+    <a href="https://www.instagram.com/amssoftsolution/"><img src="img/CONTACT US/C.png" alt=""></a>
+    <a href="https://www.facebook.com/profile.php?id=100087549707441&mibextid=ZbWKwL"><img src="img/CONTACT US/A.png" alt=""></a>
     <a href="#"><img src="img/CONTACT US/d.png" alt=""></a>
   </footer>
 
