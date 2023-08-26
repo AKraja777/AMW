@@ -583,7 +583,7 @@
 
   <!-- footer section -->
   <footer id="footer">
-  <a href="https://wa.me/8838987243"><img src="img/CONTACT US/B.png" alt=""></a>
+  <a href="https://wa.me/8838987243"><img src="img/CONTACT US/E.png" alt=""></a>
     <a href="https://www.instagram.com/amssoftsolution/"><img src="img/CONTACT US/C.png" alt=""></a>
     <a href="https://www.facebook.com/profile.php?id=100087549707441&mibextid=ZbWKwL"><img src="img/CONTACT US/A.png" alt=""></a>
     <a href="#"><img src="img/CONTACT US/d.png" alt=""></a>
